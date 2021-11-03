@@ -62,6 +62,8 @@ split = sample.split(dataset, SplitRatio = 0.70)
 training_set = subset(dataset, split == TRUE)
 test_set = subset(dataset, split == FALSE)
 
+### Messing around with clustering code DO NOT USE
+
 ## Test Clustering
 # Using the elbow method to find the optimal number of clusters
 set.seed(123)
