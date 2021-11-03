@@ -13,7 +13,7 @@ dataset$Nitrate...Nitrite <- as.numeric(dataset$Nitrate...Nitrite)
 ## Converting Conductivity from type int to num
 dataset$Conductivity <- as.numeric(dataset$Conductivity)
 
-## Subetting Data to omit columns where all values are missing
+## Subsetting Data to omit columns where all values are missing
 dataset=subset(dataset, dataset$pH != "NA")
 
 ## Replacing NAs with column average for each column
