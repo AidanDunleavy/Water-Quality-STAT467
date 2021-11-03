@@ -48,6 +48,8 @@ dataset$Nitrate...Nitrite = ifelse(is.na(dataset$Nitrate...Nitrite),
 ## Eliminate Noisy Data
 #install.packages("NoiseFiltersR")
 
+# made progress with noisy
+
 ## Normalize Data
 normalize <- function(x){
   (x - min(x)) / (max(x) - min(x))
