@@ -95,3 +95,4 @@ clusplot(dataset,
          xlab = '',
          ylab = '')
 
+Rcpp::sourceCpp(file = "main/k-means-cluster.cpp")
