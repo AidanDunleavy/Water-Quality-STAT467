@@ -15,6 +15,13 @@ using namespace Rcpp;
  NumericVector timesTwo(NumericVector x) {
   return x * 2;
 }
+ 
+
+ class Cluster {       // The class
+   public:             // Access specifier
+     NumericVector points;        // Attribute (int variable)
+     double center = ;  // Attribute 
+ };
 
 
 // You can include R code blocks in C++ files processed with sourceCpp
