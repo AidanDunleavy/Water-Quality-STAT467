@@ -15,8 +15,6 @@ using namespace Rcpp;
  NumericVector timesTwo(NumericVector x) {
   return x * 2;
 }
- 
- 
 
 
 // You can include R code blocks in C++ files processed with sourceCpp
